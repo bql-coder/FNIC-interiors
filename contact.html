@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — FNIC Interior</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">FNIC Interior</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Book</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contact Section -->
+    <section class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h1>Contact</h1>
+          <p>Shop B37, Wuse Market Road, Wuse, Abuja, Nigeria</p>
+          <p>Phone: <a href="tel:+2347032987509">+234 703 298 7509</a>, <a href="tel:+2348050837583">+234 805 083 7583</a></p>
+          <p>Email: <a href="mailto:nnachiifegwu@gmail.com">nnachiifegwu@gmail.com</a></p>
+          <div class="contact-quick">
+            <a class="btn btn-primary" href="mailto:nnachiifegwu@gmail.com">Email Us</a>
+            <a class="btn btn-ghost" href="tel:+2347032987509">Call</a>
+          </div>
+          <div class="contact-socials">
+            <a href="https://www.instagram.com/mfilker/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/2347032987509" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:+2347032987509"><i class="fas fa-phone"></i></a>
+          </div>
+          <div class="map-wrap">
+            <iframe title="FNIC Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1234567890123!2d7.4722!3d9.0765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOsKwMDQnMDAnMCJOIDfCsDI4JzA2LjAiRQ!5e0!3m2!1sen!2sng!4v0000000000000" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <h3>Send Us a Message</h3>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html">FNIC Interior</a>
+        <p class="muted">Creating Homes that Tell Your Story</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/mfilker/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/2347032987509" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:+2347032987509"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> FNIC Interior. All rights reserved.</div>
+  </footer>
+</body>
+</html>
